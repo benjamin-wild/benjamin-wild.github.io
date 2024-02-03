@@ -1,3 +1,3 @@
-Personal Website
+# [Personal Website]
 
-Check it out at this link
+### [Check it out at this link]
