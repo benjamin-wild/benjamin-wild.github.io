@@ -1,11 +1,11 @@
 /* Font and Background Colors */
 body{
-    font-family: "Ludica Console", monospace;
+    font-family: "Monaco", monospace;
     color: whitesmoke; 
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom, #000000, #241535);
+    background-image: linear-gradient(to bottom, #000000, #6b3f9c);
     background-repeat: no-repeat;
     background-attachment: fixed; 
 }
@@ -15,6 +15,7 @@ body{
     overflow: hidden; 
     background-color: black;
     position: sticky;
+    font-family: "Ludica Console", monospace;
     top: 0; 
     padding: 5px;  
 }
@@ -23,27 +24,95 @@ body{
     background-color: #e6cdf7;
 }
 
-.top-bar a{
-    float: left;  
+.top-bar a{  
     color: whitesmoke; 
-    text-align: center;
-    padding: 14px 16px;  
+    text-align: center;  
     font-size: 18px;
 }
 
-/* Link Customizations */
-a:link{
-    text-decoration: none;
+.top-bar a.right{
+    float: right;
+    padding: 14px 16px;
 }
 
-a:visited{
+.top-bar a.left{
+    float: left; 
+    padding: 14px 16px; 
+}
+
+/* Link Customizations */
+a:link, a:visited, a:active{
     text-decoration: none;
 }
 
 /* Main text */
 .main{
     padding: 16px; 
+    align-content: center;
     height: 1500px; 
 }
 
+/* Profile-picture */
+.profile-picture {
+    border-radius: 2px;
+    width: 650px;
+    height: 650px;
+    box-shadow: 0 4px 6px 0 rgba(200, 209, 216, 0.10);
+    transition: all ease-in-out .35s;
+    float: left;
+}
 
+.profile-picture:hover {
+    box-shadow: 0 8px 12px 0 rgba(255, 255, 255, 0.25);
+}
+
+/* Introduction Text */
+.intro{
+    float: left;
+    padding: 20px 100px;  
+}
+
+h1{
+    font-size: 110px;
+}
+
+h2{
+    font-size: 70px; 
+}
+
+h3{
+    font-size: 30px;
+}
+
+/* Typing Container */
+.typing-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 42px;
+    background-color: whitesmoke;
+    margin-left: 8px;
+    animation: blink .6s linear infinite alternate;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+/* Second "Row" Information: 
+   About me section, skills, links
+   to github, linked in and contact */
+
+.row2 a{
+    color: whitesmoke; 
+    text-align: center;
+    font-size: 18px;
+}
