@@ -47,7 +47,6 @@ a:link, a:visited, a:active{
 
 /* Main text */
 .main{
-    padding: 16px; 
     align-content: center;
     height: 1500px; 
 }
