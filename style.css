@@ -15,7 +15,8 @@ body{
     position: sticky;
     font-family: "Ludica Console", monospace;
     top: 0; 
-    padding: 5px;  
+    padding: 5px; 
+    z-index:1; 
 }
 
 .top-bar a:hover {
@@ -72,6 +73,7 @@ a:link, a:visited, a:active{
     box-shadow: 0 4px 6px 0 rgba(200, 209, 216, 0.10);
     transition: all ease-in-out .35s;
     float: left;
+    z-index: 0; 
 }
 
 .profile-picture:hover {
