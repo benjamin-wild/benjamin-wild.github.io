@@ -12,9 +12,10 @@ body{
 .top-bar{
     overflow: hidden; 
     background-color: black;
-    position: sticky;
     font-family: "Ludica Console", monospace;
-    top: 0; 
+    position: sticky;
+    width: 100%; 
+    top: 0;  
     padding: 5px; 
     z-index:1; 
 }
@@ -49,20 +50,11 @@ a:link, a:visited, a:active{
     text-decoration: none;
 }
 
-/* Main text */
-.stacking{
-    position: relative; 
-    width: 100%;
-    height: 100%;
-}
-
+/* Main Text */
 .main{
+    display: flex; 
     margin: 0; 
-    height: 650px; 
-}
-
-.row2 {
-    margin: 5px auto;
+    justify-content: center; 
 }
 
 /* Profile-picture */
@@ -72,7 +64,7 @@ a:link, a:visited, a:active{
     height: 650px;
     box-shadow: 0 4px 6px 0 rgba(200, 209, 216, 0.10);
     transition: all ease-in-out .35s;
-    float: left;
+    flex: 1; 
     z-index: 0; 
 }
 
@@ -80,10 +72,35 @@ a:link, a:visited, a:active{
     box-shadow: 0 8px 12px 0 rgba(255, 255, 255, 0.25);
 }
 
+.scroll{
+    display: flex;
+    justify-content: right;
+    color: lightgray; 
+    opacity: 0.5;
+}
+
+/* Skill List */
+.skill-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch; 
+    gap: 10px
+}
+
+.skill {
+    border-radius: 10px;
+    border: 3px solid #dfa7ff;
+    background-color: #dfa7ff;
+    padding: 5px;
+}
+
 /* Introduction Text */
 .intro{
-    float: left;
-    padding: 20px 100px;  
+    flex: 1; 
+    padding: 20px 100px;
+    text-align: left;  
 }
 
 h1{
@@ -96,6 +113,10 @@ h2{
 
 h3{
     font-size: 30px;
+}
+
+h4{
+    font-size: 18px; 
 }
 
 /* Typing Container */
@@ -119,4 +140,28 @@ h3{
     40% {opacity: 1;}
     60% {opacity: 0;}
     100% {opacity: 0;}
+}
+
+/* About me information */
+.row2 {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 10px; 
+    justify-content: center;
+}
+
+.about-me{
+    display: block;
+    width: 70%; 
+    height: auto; 
+    justify-content: center;
+    text-align: center;  
+}
+
+.about-me-header{
+    font-size: 30px;
+}
+
+.about-me-text{
+    font-size: 18px; 
 }
