@@ -60,8 +60,8 @@ a:link, a:visited, a:active{
 /* Profile-picture */
 .profile-picture {
     border-radius: 2px;
-    width: 650px;
-    height: 650px;
+    width: 50%;
+    height: 100%;
     box-shadow: 0 4px 6px 0 rgba(200, 209, 216, 0.10);
     transition: all ease-in-out .35s;
     flex: 1; 
@@ -73,7 +73,7 @@ a:link, a:visited, a:active{
 }
 
 .scroll{
-    display: flex;
+    display: flex;      
     justify-content: right;
     color: lightgray; 
     opacity: 0.5;
