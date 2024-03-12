@@ -1,0 +1,57 @@
+/* Font and Background Colors */
+body {
+    font-family: "Monaco", monospace;
+    color: whitesmoke;
+    height: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Top Bar Customizations */
+.top-bar {
+    overflow: hidden;
+    background-color: black;
+    font-family: "Ludica Console", monospace;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    padding: 5px;
+    z-index: 1;
+}
+
+.top-bar a:hover {
+    background-color: #e6cdf7;
+}
+
+.top-bar a {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+}
+
+.top-bar a.right {
+    float: right;
+    padding: 14px 16px;
+}
+
+.top-bar a.left {
+    float: left;
+    padding: 14px 16px;
+}
+
+.top-bar-icons {
+    width: 16px;
+    height: 16px;
+}
+
+/* Link Customizations */
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+.comapny{
+    
+}

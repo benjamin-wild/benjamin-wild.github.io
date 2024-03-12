@@ -55,7 +55,7 @@ a:link, a:visited, a:active{
     display: flex; 
     margin: 0; 
     justify-content: center; 
-}
+}   
 
 .contact-list{
     display: flex;
