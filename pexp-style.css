@@ -16,7 +16,8 @@ body {
     position: sticky;
     width: 100%;
     top: 0;
-    padding: 5px;
+    margin-top: 5px; 
+    margin-bottom: 5px; 
     z-index: 1;
 }
 
@@ -52,6 +53,32 @@ a:active {
     text-decoration: none;
 }
 
-.comapny{
-    
+.company{
+    text-align: left;
+    width: 90%;
+    margin: 3em;  
+    border: 2px solid black; 
+}
+
+.company-name{
+    font-size: 2em;
+}
+
+.company-name .right{
+    float: right; 
+}
+
+.company-name .left{
+    float: left; 
+}
+
+.company-title{ 
+    font-size: 1.75em;
+    margin-top: 45px; 
+    opacity: 0.5;
+}
+
+.company-info{
+    font-size: 1em;
+    margin-top: 20px;  
 }
