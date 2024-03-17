@@ -1,0 +1,91 @@
+/* Font and Background Colors */
+body {
+    font-family: "Monaco", monospace;
+    color: whitesmoke;
+    height: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Top Bar Customizations */
+.top-bar {
+    overflow: hidden;
+    background-color: black;
+    font-family: "Ludica Console", monospace;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    z-index: 1;
+}
+
+.top-bar a:hover {
+    background-color: #e6cdf7;
+}
+
+.top-bar a {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+}
+
+.top-bar a.right {
+    float: right;
+    padding: 14px 16px;
+}
+
+.top-bar a.left {
+    float: left;
+    padding: 14px 16px;
+}
+
+.top-bar-icons {
+    width: 16px;
+    height: 16px;
+}
+
+/* Link Customizations */
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+.university {
+    text-align: left;
+    width: 90%;
+    margin: 3em;
+}
+
+.university-name {
+    font-size: 2em;
+}
+
+.course-work {
+    font-size: 1.75em;
+    opacity: 0.5;
+}
+
+.course-info {
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.course-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px
+}
+
+.course {
+    border-radius: 10px;
+    border: 3px solid #dfa7ff;
+    background-color: #dfa7ff;
+    padding: 5px;
+    font-size: 1.5em;
+}
