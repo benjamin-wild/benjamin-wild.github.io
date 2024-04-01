@@ -5,7 +5,7 @@ $(document).ready(async function () {
 });
 
 async function show_content(){
-    var tags = document.getElementsByClassName("course")
+    var tags = document.getElementsByClassName("course-button")
     var i = 0;
 
     for(i = 0; i < tags.length; i++){
