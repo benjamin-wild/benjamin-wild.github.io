@@ -4,10 +4,6 @@ $(document).ready(async function () {
   show_content();
 });
 
-async function show(){
-    
-}
-
 async function show_content(){
     var tags = document.getElementsByClassName("course")
     var i = 0;
