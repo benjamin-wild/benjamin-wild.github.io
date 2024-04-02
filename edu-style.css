@@ -55,20 +55,31 @@ a:link, a:visited, a:active {
     text-align: left;
     width: 90%;
     margin: 3em;
+    border: 2px solid black; 
 }
 
-.university-name {
+.university-name{
     font-size: 2em;
 }
 
-.course-work {
-    font-size: 1.75em;
-    opacity: 0.5;
+.university-name .left{
+    float: left; 
 }
 
-.course-info {
-    font-size: 1em;
-    margin-top: 20px;
+.university-name .right{
+    float: right; 
+}
+
+.major { 
+    font-size: 1.85em;
+    opacity: 0.5;
+    margin-top: 45px;
+}
+
+.relevant-courses{
+    font-size: 1.65em; 
+    opacity: 0.5;
+    margin-top: 10px; 
 }
 
 .course-container {
@@ -77,7 +88,7 @@ a:link, a:visited, a:active {
     column-gap: 10px;
     row-gap: 10px;
     padding: 1em; 
-    margin-top: 20px;
+    margin-top: 10px;
     justify-content: center;
 }
 
