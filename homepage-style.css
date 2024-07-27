@@ -73,13 +73,6 @@ a:link, a:visited, a:active{
     box-shadow: 0 8px 12px 0 rgba(255, 255, 255, 0.25);
 }
 
-.scroll{
-    display: flex;      
-    justify-content: right;
-    color: lightgray; 
-    opacity: 0.5;
-}
-
 /* Skill List */
 .skill-list {
     display: flex;
@@ -155,16 +148,17 @@ h4{
     display: block;
     width: 70%; 
     height: auto; 
-    justify-content: center;
-    text-align: center;  
+    justify-content: center;   
 }
 
 .about-me-header{
     font-size: 30px;
+    text-align: center;
 }
 
 .about-me-text{
     font-size: 18px; 
+    text-align: left;
 }
 
 div.coming-soon{
