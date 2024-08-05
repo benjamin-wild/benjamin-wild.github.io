@@ -34,10 +34,8 @@ function waitForMs(ms) {
 const carouselText = [
   { text: 'Computer Science Student' },
   { text: 'Software Engineer' },
-  { text: 'Backend Developer' },
-  { text: 'Statistician' },
   { text: 'Problem Solver' },
-  { text: 'Wolverine' },
+  { text: 'Wolverine!!' },
 ];
 
 async function carousel(carouselList, eleRef) {

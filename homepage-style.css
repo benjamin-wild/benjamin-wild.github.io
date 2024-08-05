@@ -51,71 +51,32 @@ a:link, a:visited, a:active{
     text-decoration: none;
 }
 
-/* Main Text */
-.main{
-    display: flex; 
-    margin: 0; 
-    justify-content: center; 
+.content-parent{
+    justify-content: center;
+}
+
+.column-left{
+    float: left; 
+    vertical-align: middle;
+    width: 40%;
+}
+
+.column-right{
+    float: right; 
+    vertical-align: middle;
+    width: 60%;
 }
 
 /* Profile-picture */
 .profile-picture {
-    border-radius: 2px;
-    width: 50%;
-    height: 100%;
-    box-shadow: 0 4px 6px 0 rgba(200, 209, 216, 0.10);
-    transition: all ease-in-out .35s;
-    flex: 1; 
-    z-index: 0; 
-}
-
-.profile-picture:hover {
-    box-shadow: 0 8px 12px 0 rgba(255, 255, 255, 0.25);
-}
-
-/* Skill List */
-.skill-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch; 
-    gap: 10px
-}
-
-.skill {
-    border-radius: 10px;
-    border: 3px solid #dfa7ff;
-    background-color: #dfa7ff;
-    padding: 5px;
-}
-
-/* Introduction Text */
-.intro{
-    flex: 1; 
-    padding: 20px 100px;
-    text-align: left;  
-}
-
-h1{
-    font-size: 110px;
-}
-
-h2{
-    font-size: 70px; 
-}
-
-h3{
-    font-size: 30px;
-}
-
-h4{
-    font-size: 18px; 
+    border-radius: 50%;
+    width: 80%;
 }
 
 /* Typing Container */
 .typing-container {
     display: flex;
+    margin-left: 15px;
     justify-content: left;
     align-items: center;
 }
@@ -136,29 +97,48 @@ h4{
     100% {opacity: 0;}
 }
 
-/* About me information */
-.row2 {
+/* Skill List */
+.skill-list {
     display: flex;
-    margin-top: 40px;
-    margin-bottom: 10px; 
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 1.5em;
+    align-items: stretch; 
+    gap: 10px
 }
 
-.about-me{
-    display: block;
-    width: 70%; 
-    height: auto; 
-    justify-content: center;   
+.skill {
+    border-radius: 10px;
+    border: 3px solid #dfa7ff;
+    background-color: #dfa7ff;
+    padding: 5px;
 }
 
-.about-me-header{
+/* Introduction Text */
+.intro{
+    width: 100; 
+    text-align: left;
+    margin: 0.5em; 
+    font-size: xxx-large;
+}
+
+h2{
+    font-size: 70px; 
+}
+
+h3{
     font-size: 30px;
-    text-align: center;
+}
+
+h4{
+    font-size: 18px; 
 }
 
 .about-me-text{
-    font-size: 18px; 
+    font-size: 1.2em; 
     text-align: left;
+    margin: 1.5em;
 }
 
 div.coming-soon{
