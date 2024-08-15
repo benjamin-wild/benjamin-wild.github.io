@@ -87,3 +87,21 @@ a:active {
     font-size: 1em;
     margin-top: 45px;
 }
+
+/* Skill List */
+.skill-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 1.5em;
+    align-items: stretch;
+    gap: 10px
+}
+
+.skill {
+    border-radius: 10px;
+    border: 3px solid #dfa7ff;
+    background-color: #dfa7ff;
+    padding: 5px;
+}
