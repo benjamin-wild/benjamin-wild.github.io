@@ -78,6 +78,11 @@ a:active {
     opacity: 0.5;
 }
 
+.project-title{
+    font-size: 1em;
+    margin-top: 45px;
+}
+
 .company-info{
     font-size: 1em;
     margin-top: 20px;  
@@ -85,7 +90,6 @@ a:active {
 
 .project-info{
     font-size: 1em;
-    margin-top: 45px;
 }
 
 /* Skill List */
@@ -94,7 +98,7 @@ a:active {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: left;
-    margin: 1.5em;
+    margin: 0.5em;
     align-items: stretch;
     gap: 10px
 }
