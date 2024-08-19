@@ -78,7 +78,34 @@ a:active {
     opacity: 0.5;
 }
 
+.project-title{
+    font-size: 1em;
+    margin-top: 45px;
+}
+
 .company-info{
     font-size: 1em;
     margin-top: 20px;  
+}
+
+.project-info{
+    font-size: 1em;
+}
+
+/* Skill List */
+.skill-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 0.5em;
+    align-items: stretch;
+    gap: 10px
+}
+
+.skill {
+    border-radius: 10px;
+    border: 3px solid #dfa7ff;
+    background-color: #dfa7ff;
+    padding: 5px;
 }
